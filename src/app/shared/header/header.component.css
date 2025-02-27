@@ -1,0 +1,20 @@
+/* src/app/shared/header/header.component.scss */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+}

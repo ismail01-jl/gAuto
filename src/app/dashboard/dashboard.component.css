@@ -1,0 +1,17 @@
+.dashboard {
+    padding: 2rem;
+  
+    .cards {
+      display: flex;
+      gap: 1rem;
+  
+      .card {
+        border: 1px solid #007BFF;
+        border-radius: 8px;
+        padding: 1rem;
+        width: 200px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
